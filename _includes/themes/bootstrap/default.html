@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/bootstrap/component.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/bootstrap/carousel.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!--[if IE]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <!-- Google ADS mobile block -->
+    {% if site.google_ad_client %}
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "{{ site.google_ad_client }}",
+        enable_page_level_ads: true
+        });
+    </script>
+    {% endif %}
+  </head>
+  <body>
+      {{ content }}
+      <hr>
+      <section class="relateds">
+
+        <p>
+          &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+          <span class="text-muted">
+            powered by
+            <a href="https://lantoniotrento.github.io" target="_blank" title="Trendo Web is a responsive theme build by Antonio Trento in jekyll3">Antonio Trento</a>
+          </span>
+        </p>
+				<div><a href="{{ BASE_PATH }}/landing"><h3>Other samples</h3></a></div>
+			</section>
+    {% include JB/analytics %}
+    {% if site.JB.comments.disqus.short_name == true %}
+    <script id="dsq-count-scr" src="//{{ site.JB.comments.disqus.short_name }}.disqus.com/count.js" async></script>
+    {% endif %}
+    <script src="{{ BASE_PATH }}/assets/js/jquery/jquery-2.2.0.min.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/custom/npm.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/custom/custom.js"></script>
+  </body>
+</html>
