@@ -26,7 +26,7 @@
             className: "+=is-loaded"
         }).to(e("#preloader"), .7, {
             yPercent: 100,
-            ease: Power4.easeInOut
+            ease: Power4.easeNone
         }).set(e("#preloader"), {
             className: "+=is-hidden"
         }).from(e("#intro .title"), 1, {
@@ -96,7 +96,7 @@
                 }).setTween(TweenMax.from(a, 1, {
                     y: "-40%",
                     autoAlpha: .3,
-                    ease: Power0.easeOut
+                    ease: Power0.easeNone
                 })).addTo(s)
             }
         });
