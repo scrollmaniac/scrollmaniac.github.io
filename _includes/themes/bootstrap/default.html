@@ -38,7 +38,7 @@
     </script>
     {% endif %}
   </head>
-  <body>
+  <body class="is-loading">
       {{ content }}
 
     {% include JB/analytics %}
@@ -46,10 +46,14 @@
     <script id="dsq-count-scr" src="//{{ site.JB.comments.disqus.short_name }}.disqus.com/count.js" async></script>
     {% endif %}
 
-    <script src="{{ BASE_PATH }}/assets/js/jquery/jquery-2.2.0.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{ BASE_PATH }}/assets/js/jquery/query-1.11.2.min.js"><\/script>')</script>
+
+    <!--<script src="{{ BASE_PATH }}/assets/js/jquery/jquery-2.2.0.min.js"></script>
     <script src="{{ BASE_PATH }}/assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="{{ BASE_PATH }}/assets/js/custom/npm.js"></script>
-    <script src="{{ BASE_PATH }}/assets/js/custom/custom.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/custom/custom.js"></script>-->
 
     <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/TweenMax.min.js"></script>
     <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/ScrollToPlugin.min.js"></script>
