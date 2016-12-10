@@ -270,9 +270,9 @@ h1 {
         -ms-transform-origin: top center;
             transform-origin: top center; }
   .header-container.is-loaded .bcg {
-    -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-            transform: scale(1); }
+    -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+            transform: scale(2); }
 
 .bcg {
   background: no-repeat center center;
