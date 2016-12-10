@@ -26,7 +26,7 @@
             className: "+=is-loaded"
         }).to(e("#preloader"), .7, {
             yPercent: 100,
-            ease: Power4.easeNone
+            ease: Power4.easeInOut
         }).set(e("#preloader"), {
             className: "+=is-hidden"
         }).from(e("#intro .title"), 1, {
