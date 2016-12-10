@@ -270,9 +270,9 @@ h1 {
         -ms-transform-origin: top center;
             transform-origin: top center; }
   .header-container.is-loaded .bcg {
-    -webkit-transform: scale(2);
-        -ms-transform: scale(2);
-            transform: scale(2); }
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
 
 .bcg {
   background: no-repeat center center;
@@ -363,9 +363,9 @@ nav {
   position: absolute;
   bottom: 30px;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-20%, -20%);
+      -ms-transform: translate(-20%, -20%);
+          transform: translate(-20%, -20%);
   padding: 10px 40px;
   border: 3px #ffffff solid;
   font-size: 13px;
