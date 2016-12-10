@@ -10,7 +10,17 @@
     <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/bootstrap/component.min.css" />
     <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/bootstrap/carousel.css" />
+
+    <!-- SCROLMAGIC CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac/demo.css" />
+    {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac{{ page.css }}">{% endif %}
+
+
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
     <!--[if IE]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -46,9 +56,23 @@
     {% if site.JB.comments.disqus.short_name == true %}
     <script id="dsq-count-scr" src="//{{ site.JB.comments.disqus.short_name }}.disqus.com/count.js" async></script>
     {% endif %}
+
     <script src="{{ BASE_PATH }}/assets/js/jquery/jquery-2.2.0.min.js"></script>
     <script src="{{ BASE_PATH }}/assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="{{ BASE_PATH }}/assets/js/custom/npm.js"></script>
     <script src="{{ BASE_PATH }}/assets/js/custom/custom.js"></script>
+
+    <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/TweenMax.min.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/ScrollToPlugin.min.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/modernizr.custom.min.js"></script>
+
+    <!-- <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/modernizr-2.8.3-respond-1.4.2.min.js"></script> -->
+
+    <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/iscroll-probe.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/ScrollMagic.min.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/animation.gsap.min.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/debug.addIndicators.min.js"></script>
+    <script src="{{ BASE_PATH }}/assets/js/scrollmaniac/demo5.js"></script>
+    {% if page.js %}<script src="{{ BASE_PATH }}/assets/js/scrollmaniac/{{ page.js }}"></script>{% endif %}
   </body>
 </html>
