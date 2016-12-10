@@ -44,7 +44,7 @@
     var s = new ScrollMagic.Controller,
         r = ["#slide01", "#slide02", "#slide03"],
         n = ["#slide01 header", "#slide02 header", "#slide03 header"],
-        i = ["#cb01", "#cb02", "#cb03"],
+        i = ["#cb01", "#cb02", "#cb03", "#cb04"],
         l = 0,
         c = e(".bcg").length,
         d = 0;
