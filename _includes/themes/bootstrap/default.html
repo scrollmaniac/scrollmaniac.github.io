@@ -13,8 +13,8 @@
 
     <!-- SCROLMAGIC CSS -->
     <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac/style.css" />
-    <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac/demo.css" />
+    <!--<link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac/demo.css" />-->
     {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/scrollmaniac{{ page.css }}">{% endif %}
 
 
@@ -40,7 +40,7 @@
   </head>
   <body>
       {{ content }}
-      
+
     {% include JB/analytics %}
     {% if site.JB.comments.disqus.short_name == true %}
     <script id="dsq-count-scr" src="//{{ site.JB.comments.disqus.short_name }}.disqus.com/count.js" async></script>
