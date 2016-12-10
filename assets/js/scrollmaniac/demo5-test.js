@@ -31,7 +31,7 @@
             className: "+=is-hidden"
         }).from(e("#intro .title"), 1, {
             autoAlpha: 0,
-            ease: Power1.easeOut
+            ease: Power1.easeNone
         }, "-=0.2").from(e("#intro p"), .7, {
             autoAlpha: 0,
             ease: Power1.easeOut
