@@ -40,18 +40,7 @@
   </head>
   <body>
       {{ content }}
-      <hr>
-      <section class="relateds">
-
-        <p>
-          &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          <span class="text-muted">
-            powered by
-            <a href="https://lantoniotrento.github.io" target="_blank" title="Trendo Web is a responsive theme build by Antonio Trento in jekyll3">Antonio Trento</a>
-          </span>
-        </p>
-				<div><a href="{{ BASE_PATH }}/landing"><h3>Other samples</h3></a></div>
-			</section>
+      
     {% include JB/analytics %}
     {% if site.JB.comments.disqus.short_name == true %}
     <script id="dsq-count-scr" src="//{{ site.JB.comments.disqus.short_name }}.disqus.com/count.js" async></script>
