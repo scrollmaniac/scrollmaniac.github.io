@@ -31,14 +31,14 @@
             className: "+=is-hidden"
         }).from(e("#intro .title"), 1, {
             autoAlpha: 0,
-            ease: Power1.easeNone
+            ease: Power1.easeOut
         }, "-=0.2").from(e("#intro p"), .7, {
             autoAlpha: 0,
-            ease: Power1.easeNone
+            ease: Power1.easeOut
         }, "+=0.2").from(e(".scroll-hint"), .3, {
             y: -20,
             autoAlpha: 0,
-            ease: Power1.easeNone
+            ease: Power1.easeOut
         }, "+=0.1"), o
     }
     var s = new ScrollMagic.Controller,
