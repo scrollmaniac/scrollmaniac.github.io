@@ -34,11 +34,11 @@
             ease: Power1.easeNone
         }, "-=0.2").from(e("#intro p"), .7, {
             autoAlpha: 0,
-            ease: Power1.easeOut
+            ease: Power1.easeNone
         }, "+=0.2").from(e(".scroll-hint"), .3, {
             y: -20,
             autoAlpha: 0,
-            ease: Power1.easeOut
+            ease: Power1.easeNone
         }, "+=0.1"), o
     }
     var s = new ScrollMagic.Controller,
