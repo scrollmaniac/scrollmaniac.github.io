@@ -5591,7 +5591,7 @@ var buntsteps = {
             },
             ".blood": {
                 y: 250,
-                
+                x: -450,
                 direction: "to"
             }
         }
