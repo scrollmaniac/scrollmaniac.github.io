@@ -5585,13 +5585,13 @@ var buntsteps = {
         },
         "step-2": {
             ".male, .female": {
-                duration: .7,
+                duration: .2,
                 autoAlpha: 0,
                 direction: "to"
             },
             ".blood": {
                 y: 250,
-                x: -450,
+                
                 direction: "to"
             }
         }
