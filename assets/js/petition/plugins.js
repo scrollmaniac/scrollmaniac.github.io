@@ -5585,7 +5585,7 @@ var buntsteps = {
         },
         "step-2": {
             ".male, .female": {
-                duration: .2,
+                duration: .7,
                 autoAlpha: 0,
                 direction: "to"
             },
