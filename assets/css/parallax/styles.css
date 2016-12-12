@@ -188,7 +188,7 @@ textarea {
   background: #ccc;
   color: #000;
   padding: 0.2em 0; }
-  
+
 /* ONE PAGE LOVE SUBMISSION !!! */
 
 .opl {
@@ -229,7 +229,7 @@ h1 {
   font-family: 'Playfair Display', Times New Roman, serif;
   font-style: normal;
   font-weight: lighter; }
-  
+
 h2 {
   font-size: 45px;
   line-height: 116%;
@@ -237,7 +237,7 @@ h2 {
   font-family: 'Playfair Display', Times New Roman, serif;
   font-style: normal;
   font-weight: normal; }
-  
+
 h3 {
   font-size: 14px;
   letter-spacing: 7px;
@@ -245,7 +245,7 @@ h3 {
   margin-top: 0;
   font-family: 'Roboto', Helvetica, Helvetica Neue, Arial, sans-serif;
   font-style: regular;
-  font-weight: bold ; }  
+  font-weight: bold ; }
 
 /* ==========================================================================
    Author's custom styles
@@ -254,11 +254,11 @@ h3 {
 .header-container {
   text-align: center;
   color: #ffffff;
-  background: url(../img/intro.jpg) no-repeat center center fixed;
+  background: url(assets/img/intro.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
-    background-size: cover; 
+    background-size: cover;
  background-size: cover; }
   .header-container .wrapper {
     padding-top: 220px;
@@ -339,11 +339,11 @@ nav {
   font-weight: 100;
   font-family: 'Roboto', Helvetica, Helvetica Neue, Arial, sans-serif;
   background-color: none;
-  background: url(../img/arrow.png) no-repeat;
+  background: url(assets/img/arrow.png) no-repeat;
   width: 31px; /* Width of new image */
   height: 39px; /* Height of new image */
   horizontal-align: middle }
-  
+
 
 /* =Main */
 p {
@@ -351,7 +351,7 @@ p {
 
 .fs {
   height: 100vh; }
-  
+
 .ms {
   height: 75vh; }
 
@@ -370,35 +370,35 @@ p {
 	color: #ffffff;
 	background-color: #4894E1;
 	font-color: #4894E1 }
-	
+
   .slide#slide06 {
     background-size: cover;
 	color: #ffffff;
 	background-color: #0BC89E;
 	font-color: #ffffff }
-	
+
   .slide#slide09 {
     background-size: cover;
 	color: #ffffff;
 	background-color: #8850CB;
 	font-color: #ffffff }
-	
+
    .slide#slide012 {
     background-size: cover;
 	color: #ffffff;
 	background-color: #D89000;
 	font-color: #ffffff }
-	
+
 	.slide#slide015 {
     background-size: cover;
 	color: #ffffff;
 	background-color: #9CB001;
-	font-color: #ffffff }	
-	
+	font-color: #ffffff }
+
 	.slide#slide018 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/last_word.jpg) no-repeat center center fixed;
+    background: url(assets/img/last_word.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -406,11 +406,11 @@ p {
     .slide#slide02 .wrapper {
       position: absolute;
       bottom: 10%; }
-	  	
+
 	.slide#slide019 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/end.jpg) no-repeat center center fixed;
+    background: url(assets/img/end.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -424,7 +424,7 @@ p {
   .slide#slide02 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/01.jpg) no-repeat center center fixed;
+    background: url(assets/img/01.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -432,21 +432,21 @@ p {
     .slide#slide02 .wrapper {
       position: absolute;
       bottom: 10%; }
-	  
+
   .slide#slide03 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/02a.gif) no-repeat center center;
+    background: url(assets/img/02a.gif) no-repeat center center;
     background-size: cover;
     color: #212121 }
 	    .slide#slide03 .wrapper {
       position: absolute;
       bottom: 250%; }
-	  
+
   .slide#slide04 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/02.jpg) no-repeat center center;
+    background: url(assets/img/02.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -455,12 +455,12 @@ p {
 	    .slide#slide04 .wrapper {
       padding-top: 120px ;
       position: absolute;
-      bottom: 10%; }	  
+      bottom: 10%; }
 
   .slide#slide05 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/03.jpg) no-repeat center center;
+    background: url(assets/img/03.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -470,12 +470,12 @@ p {
       padding-top: 120px ;
       position: absolute;
       bottom: 10%; }
-	  
+
   .slide#slide07 {
 	display:block;
 	text-align: center;
     color: #ffffff;
-    background: url(../img/04.jpg) no-repeat center center;
+    background: url(assets/img/04.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -486,11 +486,11 @@ p {
       position: absolute;
       bottom: 10%; }
 
-	
+
   .slide#slide08 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/05.jpg) no-repeat center center;
+    background: url(assets/img/05.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -499,12 +499,12 @@ p {
 	    .slide#slide08 .wrapper {
       padding-top: 120px ;
       position: absolute;
-      bottom: 10%; }	
-	  
+      bottom: 10%; }
+
   .slide#slide010 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/06.jpg) no-repeat center center;
+    background: url(assets/img/06.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -514,11 +514,11 @@ p {
       padding-top: 120px ;
       position: absolute;
       bottom: 10%; }
-	  
+
    .slide#slide011 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/07.jpg) no-repeat center center;
+    background: url(assets/img/07.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -528,11 +528,11 @@ p {
       padding-top: 120px ;
       position: absolute;
       bottom: 10%; }
-	
+
 	.slide#slide013 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/08.jpg) no-repeat center center;
+    background: url(assets/img/08.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -542,11 +542,11 @@ p {
       padding-top: 120px ;
       position: absolute;
       bottom: 10%; }
-	  
+
 	.slide#slide014 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/09.jpg) no-repeat center center;
+    background: url(assets/img/09.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -556,11 +556,11 @@ p {
       padding-top: 120px ;
       position: absolute;
       bottom: 10%; }
-	
+
 	.slide#slide016 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/10.gif) no-repeat center center;
+    background: url(assets/img/10.gif) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -569,12 +569,12 @@ p {
 	  .slide#slide016 .wrapper {
       padding-top: 120px ;
       position: absolute;
-      bottom: 10%; }	
+      bottom: 10%; }
 
 	.slide#slide017 {
 	text-align: center;
     color: #ffffff;
-    background: url(../img/11.jpg) no-repeat center center;
+    background: url(assets/img/11.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -583,7 +583,7 @@ p {
 	  .slide#slide016 .wrapper {
       padding-top: 120px ;
       position: absolute;
-      bottom: 10%; }	
+      bottom: 10%; }
 
 
 .button {
@@ -688,7 +688,7 @@ p {
       top: 39%;
       text-align: center;
 	  }
-	  
+
     .slide#slide01 section, .slide#slide02 section, .slide#slide03 section, .slide#slide04 section, .slide#slide05 section, .slide#slide06 section, .slide#slide07 section, .slide#slide08 section, .slide#slide09 section, .slide#slide010 section, .slide#slide011 section, .slide#slide012 section, .slide#slide013 section, .slide#slide014 section, .slide#slide015 section, .slide#slide016 section, .slide#slide017 section, .slide#slide018 section, .slide#slide019 section {
       margin: 0 auto; }
 
