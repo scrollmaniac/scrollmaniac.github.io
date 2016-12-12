@@ -585,6 +585,20 @@ p {
       position: absolute;
       bottom: 10%; }
 
+      .slide#slide020 {
+    	text-align: center;
+        color: #ffffff;
+        background: url(/assets/images/08.jpg) no-repeat center center;
+    	-webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover;    /* Mozilla*/
+        -o-background-size: cover;      /* Opera*/
+        background-size: cover;
+        color: #212121 }
+    	  .slide#slide013 .wrapper {
+          padding-top: 120px ;
+          position: absolute;
+          bottom: 10%; }
+
 
 .button {
   text-decoration: none;
@@ -689,7 +703,7 @@ p {
       text-align: center;
 	  }
 
-    .slide#slide01 section, .slide#slide02 section, .slide#slide03 section, .slide#slide04 section, .slide#slide05 section, .slide#slide06 section, .slide#slide07 section, .slide#slide08 section, .slide#slide09 section, .slide#slide010 section, .slide#slide011 section, .slide#slide012 section, .slide#slide013 section, .slide#slide014 section, .slide#slide015 section, .slide#slide016 section, .slide#slide017 section, .slide#slide018 section, .slide#slide019 section {
+    .slide#slide01 section, .slide#slide02 section, .slide#slide03 section, .slide#slide04 section, .slide#slide05 section, .slide#slide06 section, .slide#slide07 section, .slide#slide08 section, .slide#slide09 section, .slide#slide010 section, .slide#slide011 section, .slide#slide012 section, .slide#slide013 section, .slide#slide014 section, .slide#slide015 section, .slide#slide016 section, .slide#slide017 section, .slide#slide018 section, .slide#slide019 section, .slide#slide020 section {
       margin: 0 auto; }
 
 .slide#slide03 .wrapper {
