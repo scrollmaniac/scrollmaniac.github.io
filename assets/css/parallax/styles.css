@@ -593,7 +593,7 @@ p {
         -moz-background-size: cover;    /* Mozilla*/
         -o-background-size: cover;      /* Opera*/
         background-size: cover;
-        color: #212121 }
+         }
     	  .slide#slide020 .wrapper {
           padding-top: 120px ;
           position: absolute;
