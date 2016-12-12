@@ -16,7 +16,7 @@
             var c = e(r).attr("id");
             new ScrollMagic.Scene({
                 triggerElement: r,
-                offset: -195
+                offset: -95
             }).setClassToggle("#" + c, "is-active").on("enter", function(n) {
                 e("nav").attr("class", "is-light")
             }).addTo(n)
