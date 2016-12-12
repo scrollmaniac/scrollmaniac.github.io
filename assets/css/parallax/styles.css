@@ -254,7 +254,7 @@ h3 {
 .header-container {
   text-align: center;
   color: #ffffff;
-  background: url(assets/images/intro.jpg) no-repeat center center fixed;
+  background: url(/assets/images/intro.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -339,7 +339,7 @@ nav {
   font-weight: 100;
   font-family: 'Roboto', Helvetica, Helvetica Neue, Arial, sans-serif;
   background-color: none;
-  background: url(assets/images/arrow.png) no-repeat;
+  background: url(/assets/images/arrow.png) no-repeat;
   width: 31px; /* Width of new image */
   height: 39px; /* Height of new image */
   horizontal-align: middle }
@@ -398,7 +398,7 @@ p {
 	.slide#slide018 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/last_word.jpg) no-repeat center center fixed;
+    background: url(/assets/images/last_word.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -410,7 +410,7 @@ p {
 	.slide#slide019 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/end.jpg) no-repeat center center fixed;
+    background: url(/assets/images/end.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -424,7 +424,7 @@ p {
   .slide#slide02 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/01.jpg) no-repeat center center fixed;
+    background: url(/assets/images/01.jpg) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -436,7 +436,7 @@ p {
   .slide#slide03 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/02a.gif) no-repeat center center;
+    background: url(/assets/images/02a.gif) no-repeat center center;
     background-size: cover;
     color: #212121 }
 	    .slide#slide03 .wrapper {
@@ -446,7 +446,7 @@ p {
   .slide#slide04 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/02.jpg) no-repeat center center;
+    background: url(/assets/images/02.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -460,7 +460,7 @@ p {
   .slide#slide05 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/03.jpg) no-repeat center center;
+    background: url(/assets/images/03.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -475,7 +475,7 @@ p {
 	display:block;
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/04.jpg) no-repeat center center;
+    background: url(/assets/images/04.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -490,7 +490,7 @@ p {
   .slide#slide08 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/05.jpg) no-repeat center center;
+    background: url(/assets/images/05.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -504,7 +504,7 @@ p {
   .slide#slide010 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/06.jpg) no-repeat center center;
+    background: url(/assets/images/06.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -518,7 +518,7 @@ p {
    .slide#slide011 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/07.jpg) no-repeat center center;
+    background: url(/assets/images/07.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -532,7 +532,7 @@ p {
 	.slide#slide013 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/08.jpg) no-repeat center center;
+    background: url(/assets/images/08.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -546,7 +546,7 @@ p {
 	.slide#slide014 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/09.jpg) no-repeat center center;
+    background: url(/assets/images/09.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -560,7 +560,7 @@ p {
 	.slide#slide016 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/10.gif) no-repeat center center;
+    background: url(/assets/images/10.gif) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
@@ -574,7 +574,7 @@ p {
 	.slide#slide017 {
 	text-align: center;
     color: #ffffff;
-    background: url(assets/images/11.jpg) no-repeat center center;
+    background: url(/assets/images/11.jpg) no-repeat center center;
 	-webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
