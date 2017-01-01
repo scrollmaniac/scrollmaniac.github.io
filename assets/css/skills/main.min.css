@@ -695,7 +695,7 @@ html {
     .number,
     .title {
         position: absolute;
-        top: 20%
+        top: 30%
     }
     .bcg-white {
         z-index: 2;
