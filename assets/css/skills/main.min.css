@@ -100,9 +100,6 @@ body {
 .title strong {
     font-family: Okomito-Bold
 }
-.title-small strong {
-    font-family: Okomito-Bold
-}
 
 body,
 html {
@@ -196,24 +193,6 @@ html {
     font-family: Okomito-Medium;
     font-style: normal
 }
-
-.title-small {
-    font-size: 30px;
-    line-height: 30px
-}
-
-.title-small {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: 15px
-}
-
-.title-small em {
-    font-family: Okomito-Medium;
-    font-style: normal
-}
-
 
 #slide01 {
     background: linear-gradient(to right, #FC866E 0, #FC866E 37%, #FD746C 100%)
@@ -376,12 +355,8 @@ html {
     }
     #slide09 .number,
     .title {
-        font-size: 60px;
-        line-height: 60px
-    }
-    .title-small {
-        font-size: 40px;
-        line-height: 40px
+        font-size: 50px;
+        line-height: 50px
     }
 }
 
@@ -720,7 +695,7 @@ html {
     .number,
     .title {
         position: absolute;
-        top: 40%
+        top: 30%
     }
     .bcg-white {
         z-index: 2;
@@ -877,10 +852,6 @@ html {
     .title {
         font-size: 100px;
         line-height: 100px
-    }
-    .title-small {
-        font-size: 50px;
-        line-height: 50px
     }
 }
 
