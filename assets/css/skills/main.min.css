@@ -355,8 +355,8 @@ html {
     }
     #slide09 .number,
     .title {
-        font-size: 50px;
-        line-height: 50px
+        font-size: 40px;
+        line-height: 40px
     }
 }
 
@@ -695,7 +695,7 @@ html {
     .number,
     .title {
         position: absolute;
-        top: 30%
+        top: 20%
     }
     .bcg-white {
         z-index: 2;
