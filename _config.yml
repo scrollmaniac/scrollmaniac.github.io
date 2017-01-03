@@ -14,21 +14,20 @@ baseurl: "/scrollmaniac.github.io"
 #
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot: 2973388149
-data-ad-client: ca-pub-9204963049240271
-google_ad_client: ca-pub-9204963049240271
-
-post_limit: 5
+#data-ad-slot: 2973388149
+#data-ad-client: ca-pub-9204963049240271
+#google_ad_client: ca-pub-9204963049240271
 
 
-title : scrollmaniac
-tagline: A responsive templeate built for jekyll3
+
+title : Antonio Trento
+tagline: Build your web strategy with Magic
 author :
-  name : scrollmaniac
+  name : Antonio Trento
   email : lantoniotrento@gmail.com
   github : antoniotrento
   twitter : lantoniotrento
-  feedburner : johndoefeedname
+  feedburner : 
 
 twitter_username: lantoniotrento
 # The production_url is only used when full-domain names are needed
