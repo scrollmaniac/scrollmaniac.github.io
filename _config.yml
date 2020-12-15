@@ -14,9 +14,9 @@ baseurl: "/scrollmaniac.github.io"
 #
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
-#data-ad-slot: 2973388149
-#data-ad-client: ca-pub-9204963049240271
-#google_ad_client: ca-pub-9204963049240271
+#data-ad-slot: 
+#data-ad-client: 
+#google_ad_client: 
 
 
 
@@ -93,13 +93,13 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : 
     disqus :
-      short_name : jekymat
+      short_name : 
     livefyre :
       site_id : 123
     intensedebate :
-      account : 123abc
+      account : 
     facebook :
       appid : 123
       num_posts: 5
